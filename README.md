@@ -12,5 +12,5 @@ Xcode 7.0
  
 **Third Party Libraries Used**
 
-- [Hanake] (https://github.com/Haneke/Haneke)
+- [Haneke] (https://github.com/Haneke/Haneke)
 - [UIImage+SVG] (https://github.com/Label305/UIImage-SVG/)
