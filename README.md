@@ -8,8 +8,9 @@ The available routes should be extracted from the static JSON file and display t
 
 **Installation Requirements**
 
-Xcode 7.0
- 
+- Xcode 7.0
+- iOS 9
+
 **Third Party Libraries Used**
 
 - [Haneke] (https://github.com/Haneke/Haneke)
