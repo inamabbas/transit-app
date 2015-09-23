@@ -27,7 +27,6 @@
 		9E45868A1BB205CB0052C07D /* TASegment.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4586821BB205CB0052C07D /* TASegment.m */; settings = {ASSET_TAGS = (); }; };
 		9E45868B1BB205CB0052C07D /* TAStop.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E4586841BB205CB0052C07D /* TAStop.m */; settings = {ASSET_TAGS = (); }; };
 		9E45868D1BB206230052C07D /* TATransportView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9E45868C1BB206230052C07D /* TATransportView.xib */; settings = {ASSET_TAGS = (); }; };
-		9E49CEDD1BAD863800A465B4 /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E49CEDC1BAD863800A465B4 /* placeholder.png */; settings = {ASSET_TAGS = (); }; };
 		9EFA6D7C1BA98A4D0000B84D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFA6D7B1BA98A4D0000B84D /* main.m */; };
 		9EFA6D7F1BA98A4D0000B84D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EFA6D7E1BA98A4D0000B84D /* AppDelegate.m */; };
 		9EFA6D851BA98A4D0000B84D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA6D831BA98A4D0000B84D /* Main.storyboard */; };
@@ -87,7 +86,6 @@
 		9E4586831BB205CB0052C07D /* TAStop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAStop.h; sourceTree = "<group>"; };
 		9E4586841BB205CB0052C07D /* TAStop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAStop.m; sourceTree = "<group>"; };
 		9E45868C1BB206230052C07D /* TATransportView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATransportView.xib; sourceTree = "<group>"; };
-		9E49CEDC1BAD863800A465B4 /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
 		9EFA6D761BA98A4D0000B84D /* TransitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFA6D7A1BA98A4D0000B84D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EFA6D7B1BA98A4D0000B84D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -213,7 +211,6 @@
 				9EFA6D861BA98A4D0000B84D /* Images.xcassets */,
 				9EFA6D881BA98A4D0000B84D /* LaunchScreen.xib */,
 				9EFA6D9F1BA98A5B0000B84D /* data.json */,
-				9E49CEDC1BAD863800A465B4 /* placeholder.png */,
 				9EFA6D791BA98A4D0000B84D /* Supporting Files */,
 			);
 			path = TransitApp;
@@ -339,7 +336,6 @@
 				9EFA6D851BA98A4D0000B84D /* Main.storyboard in Resources */,
 				9E45868D1BB206230052C07D /* TATransportView.xib in Resources */,
 				9EFA6D8A1BA98A4D0000B84D /* LaunchScreen.xib in Resources */,
-				9E49CEDD1BAD863800A465B4 /* placeholder.png in Resources */,
 				9EFA6D871BA98A4D0000B84D /* Images.xcassets in Resources */,
 				9EFA6DA01BA98A5B0000B84D /* data.json in Resources */,
 			);
