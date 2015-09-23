@@ -1,10 +1,8 @@
 # transit-app
 
-**Objective**
+The app will show all the routes in a list format (UITableView). The tableview contains the images from different segments of a particular route also the time it would take to travel and cost. 
 
-To build a simplified version of a transit app.
-
-The available routes should be extracted from the static JSON file and display them in tableview.
+On selection of a specific route it will show different segments of route in detail view. The detail view further break and show those segments into stops and travel directions and the time it takes to go from one stop to another. The details view can be seen in two different modes list and mapview. The mapview show the segments of routes as and overlay. 
 
 **Installation Requirements**
 
