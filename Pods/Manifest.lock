@@ -1,0 +1,16 @@
+PODS:
+  - Haneke (1.0.1)
+  - RaptureXML (1.0.1)
+  - UIImage+SVG (0.1):
+    - RaptureXML (~> 1.0.1)
+
+DEPENDENCIES:
+  - Haneke
+  - UIImage+SVG (~> 0.1)
+
+SPEC CHECKSUMS:
+  Haneke: d60be8b96b228633b24708dd153169d6849d6f78
+  RaptureXML: b5c33c04c1a4adfd8ad0d5463329a31820596e82
+  UIImage+SVG: 23a2edbb60b0f4c083068963086e309ebd8be592
+
+COCOAPODS: 0.38.2

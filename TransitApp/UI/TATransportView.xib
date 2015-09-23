@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TATransportView">
+            <rect key="frame" x="0.0" y="0.0" width="56" height="94"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3OA-Fa-BEo">
+                    <rect key="frame" x="2" y="63" width="52" height="32"/>
+                    <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="S47-ab-VFg">
+                    <rect key="frame" x="0.0" y="0.0" width="56" height="63"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="56" placeholderIntrinsicHeight="63" translatesAutoresizingMaskIntoConstraints="NO" id="82r-ma-UnE">
+                            <rect key="frame" x="0.0" y="0.0" width="56" height="63"/>
+                            <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="82r-ma-UnE" firstAttribute="centerY" secondItem="S47-ab-VFg" secondAttribute="centerY" id="Akm-yd-D0V"/>
+                        <constraint firstItem="82r-ma-UnE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="S47-ab-VFg" secondAttribute="leading" id="FG4-Je-jmL"/>
+                        <constraint firstItem="82r-ma-UnE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="S47-ab-VFg" secondAttribute="top" id="HJ1-wW-3Z1"/>
+                        <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="82r-ma-UnE" secondAttribute="trailing" id="JSe-vt-ACS"/>
+                        <constraint firstAttribute="height" constant="63" id="Nuv-cu-Bu1"/>
+                        <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="82r-ma-UnE" secondAttribute="bottom" id="QG7-OU-0ac"/>
+                        <constraint firstItem="82r-ma-UnE" firstAttribute="centerX" secondItem="S47-ab-VFg" secondAttribute="centerX" id="xVZ-OM-CJA"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3OA-Fa-BEo" firstAttribute="top" secondItem="S47-ab-VFg" secondAttribute="bottom" id="AGI-pP-m94"/>
+                <constraint firstItem="3OA-Fa-BEo" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="2" id="Mof-99-7Ue"/>
+                <constraint firstAttribute="trailing" secondItem="3OA-Fa-BEo" secondAttribute="trailing" constant="2" id="V8h-Pf-Txb"/>
+                <constraint firstItem="S47-ab-VFg" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="YGg-1x-uE4"/>
+                <constraint firstAttribute="bottom" secondItem="3OA-Fa-BEo" secondAttribute="bottom" constant="-1" id="ZvZ-EB-8Lf"/>
+                <constraint firstAttribute="trailing" secondItem="S47-ab-VFg" secondAttribute="trailing" id="a21-E2-W24"/>
+                <constraint firstItem="S47-ab-VFg" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cLY-eA-ln3"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="transportImageView" destination="82r-ma-UnE" id="KW7-6U-vWc"/>
+                <outlet property="transportLabel" destination="3OA-Fa-BEo" id="NBf-Qw-S07"/>
+            </connections>
+            <point key="canvasLocation" x="281" y="215"/>
+        </view>
+    </objects>
+</document>

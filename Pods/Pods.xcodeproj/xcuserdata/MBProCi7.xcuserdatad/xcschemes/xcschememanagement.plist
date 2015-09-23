@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Haneke.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>RaptureXML.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>UIImage+SVG.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>607FF946BDF680657D1428B14036EE83</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>611E467DF2411BC6B1B8866E3D5293C0</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>97764D5BC52FD9A1769B687D35DE7316</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D85023AE5566B3E00BDBF83E1FA28027</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
